@@ -8,4 +8,3 @@ contract MyContract {
     uint8 public myUint8 = 8;
     uint256 public myUint256 = 99999;
 }
-
