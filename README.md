@@ -10,7 +10,7 @@ Learning Solidity from various resources:
 - https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/
   - When it comes on offer :-o currently £85
 
-#### Testnet environment you can use
+#### Testnet environment you can using the remix IDE
 - http://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.4.26+commit.4563c3fc.js
 
 <br />
