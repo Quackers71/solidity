@@ -22,13 +22,19 @@ contract MyContract {
         owner = msg.sender;
     }
     
-    function addPerson(string memory _firstName, string memory _lastName) public onlyOwner {
-        incrementCount();
+    function addPerson(             /* function */
+        string memory _firstName,   /* args */
+        string memory _lastName
+    ) 
+        public 
+        onlyOwner                   /* modifier */
+    {
+        incrementCount();           /* executed function */
         people[peopleCount] = Person(peopleCount, _firstName, _lastName);
     }
     
     function incrementCount() internal {
-        peopleCount +=1;
+        peopleCount +=1;        
     }
 }
 
@@ -37,3 +43,5 @@ contract MyContract {
 /* internal function - internal is a modifier */
 
 /* custom modifier - only the owner of the smart contract can addPerson - using global keyword msg */
+
+/* some code formatting with comments */
