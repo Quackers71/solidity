@@ -1,4 +1,4 @@
-pragma solidity >=0.4.24 <0.7.0;
+pragma solidity 0.5.1;
 
 contract MyContract {
     string value;
@@ -7,12 +7,11 @@ contract MyContract {
         value = "myValue";
     }
     
-    function get() public view returns(string) {
+    function get() public view returns(string memory) {
         return value;
     }
     
-    function set(string _value) public {
+    function set(string memory _value) public {
         value = _value;
     }
 }
-
