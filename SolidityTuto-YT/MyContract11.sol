@@ -23,7 +23,8 @@ contract MyContract {
     }
     
     function buyToken() public payable {
-        ERC20Token(address(token)).mint();
+        ERC20Token _token = ERC20Token(address(token)).mint();
+        _token mint();
         wallet.transfer(msg.value);
     }
 }
