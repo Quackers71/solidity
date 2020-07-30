@@ -15,3 +15,9 @@ Received 3 Test Ethereum Tokens - https://rinkeby.etherscan.io/address/0xd93fc49
 From the Transaction Properties 
 
 - The v, r, & s are - Cryptographic pieces of data that can be used to generate the senders account address.  Generated from the sender's private key.
+
+#### Basic Blockchains by Anders Brownworth taken from the course
+
+- https://www.youtube.com/watch?v=_160oMzblY8
+
+- https://blockchain-demo.joefallon.net/
