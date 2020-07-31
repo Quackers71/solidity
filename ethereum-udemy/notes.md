@@ -18,6 +18,8 @@ From the Transaction Properties
 
 #### Basic Blockchains by Anders Brownworth taken from the course
 
+- https://andersbrownworth.com/
+
 - https://www.youtube.com/watch?v=_160oMzblY8
 
-- https://blockchain-demo.joefallon.net/
+- https://andersbrownworth.com/blockchain/
