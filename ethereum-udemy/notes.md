@@ -1,5 +1,7 @@
 # Ethereum and Solidity: The Complete Developers Guide
 
+## Section 1: What is Ethereum?
+
 Dr Google'd https://github.com/ethereum/go-ethereum/issues/16600
 
 Went to https://faucet.rinkeby.io/
@@ -23,3 +25,8 @@ From the Transaction Properties
 - https://www.youtube.com/watch?v=_160oMzblY8
 
 - https://andersbrownworth.com/blockchain/
+
+14. Block Time
+
+- https://etherscan.io/chart/blocktime
+
