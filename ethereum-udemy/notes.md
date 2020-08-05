@@ -51,3 +51,9 @@ From the Transaction Properties
 - https://www.reddit.com/r/ethereum/
   see also https://f2pool.io/mining/insights/eth/beginner-guide-eth-2-0/
 
+27. Mnemonic Phrases (Seed Passphrase)
+
+- https://iancoleman.io/bip39/
+
+Put your Seed Passphrase into the BIP39 Mnemonic field and scroll down...
+
