@@ -57,3 +57,9 @@ From the Transaction Properties
 
 Put your Seed Passphrase into the BIP39 Mnemonic field and scroll down...
 
+29. Don't Skip! Node JS Versioning
+
+Some later lectures in this course will depend on an up-to-date version of Node JS.  Please take this opportunity to make sure you're running at least version 8.0.0 of Node JS.  You can check your current version by running the command node -v at your command line.
+
+If you are running an older version, you can easily update it by grabbing an updater here: https://nodejs.org/en/download/
+
