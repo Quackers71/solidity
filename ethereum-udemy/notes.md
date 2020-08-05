@@ -63,3 +63,9 @@ Some later lectures in this course will depend on an up-to-date version of Node 
 
 If you are running an older version, you can easily update it by grabbing an updater here: https://nodejs.org/en/download/
 
+30. Contract Deployment
+
+- Truffle - CLI for Contract Creation including Programatic Automated Testing and Deployment to the Network .i.e Rinkeby
+
+- Custom Node Project - from Scratch as 1st assignment
+
