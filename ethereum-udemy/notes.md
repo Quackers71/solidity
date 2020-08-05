@@ -26,9 +26,11 @@ From the Transaction Properties
 
 - https://andersbrownworth.com/blockchain/
 
+
 14. Block Time
 
 - https://etherscan.io/chart/blocktime
+
 
 18. Notes on comments section from a User asking for more up to date solidity version code i.e. 
     With the recent release of solidity version 0.6.0, I think it would be great to see some updates, as it looks like a lot has changed since V0.4.17.
@@ -41,6 +43,7 @@ From the Transaction Properties
 
     Hopefully, this repo helps add additional value to current and future students enrolled in this course and allows you to always have access to code compatible with the latest released versions of Solidity, Web3.js, etc.
 
+
 26. Gas & Transactions
 
 - https://etherconverter.now.sh/
@@ -51,11 +54,13 @@ From the Transaction Properties
 - https://www.reddit.com/r/ethereum/
   see also https://f2pool.io/mining/insights/eth/beginner-guide-eth-2-0/
 
+
 27. Mnemonic Phrases (Seed Passphrase)
 
 - https://iancoleman.io/bip39/
 
 Put your Seed Passphrase into the BIP39 Mnemonic field and scroll down...
+
 
 29. Don't Skip! Node JS Versioning
 
@@ -63,11 +68,13 @@ Some later lectures in this course will depend on an up-to-date version of Node 
 
 If you are running an older version, you can easily update it by grabbing an updater here: https://nodejs.org/en/download/
 
+
 30. Contract Deployment
 
 - Truffle - CLI for Contract Creation including Programatic Automated Testing and Deployment to the Network .i.e Rinkeby
 
 - Custom Node Project - from Scratch as 1st assignment
+
 
 31. Boilerplate Requirements
 
@@ -112,6 +119,7 @@ About to write to C:\Users\Rob\Desktop\repos\solidity\ethereum-udemy\inbox\packa
 
 Is this OK? (yes)
 
+
 33. Syntax Highlighters
 
 Links to syntax highlighters are below.  Remember that syntax highlighting for Solidity code isn't strictly required, and we won't be writing a lot of Solidity inside our editor.  With that in mind, if you run into any installation issues I'd recommend continuing on rather than trying to troubleshoot it.
@@ -122,4 +130,33 @@ Links to syntax highlighters are below.  Remember that syntax highlighting for S
     VSCode - https://github.com/juanfranblanco/vscode-solidity
     Webstorm - https://plugins.jetbrains.com/plugin/9475-intellij-solidity
     VIM - https://github.com/tomlion/vim-solidity
+
+
+34. Solidity "AssertionError [ERR_ASSERTION]: Invalid callback specified" errors
+
+Recently, Solidity released version 0.5.0 and introduced many breaking changes. At the moment this course only supports Solidity versions 0.4.25 and lower. We recommend sticking with the suggested versions used in the course to learn the fundamental concepts. After completion, upgrading to the latest dependency releases and refactoring would be a great continuing education exercise.
+
+When running your test code you are probably getting or will probably get the following:
+
+AssertionError [ERR_ASSERTION]: Invalid callback specified
+
+If so, you should:
+
+1. Uninstall solc:
+npm uninstall solc
+
+
+2. Reinstall one of two versions:
+
+The version used in the course:
+
+npm install --save solc@0.4.17
+
+or
+
+The newest version that will not break:
+
+npm install --save solc@0.4.25
+
+Remember to do this for each solc installation step in this course (There are likely three in total)
 
