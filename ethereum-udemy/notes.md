@@ -41,3 +41,13 @@ From the Transaction Properties
 
     Hopefully, this repo helps add additional value to current and future students enrolled in this course and allows you to always have access to code compatible with the latest released versions of Solidity, Web3.js, etc.
 
+26. Gas & Transactions
+
+- https://etherconverter.now.sh/
+
+- https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0 # Updated Spreadsheet of Gas Costs -- EIP-150 Revision (1e18248 - 2017-04-12) 
+  taken from https://www.reddit.com/r/ethereum/comments/6k2ibr/updated_spreadsheet_of_gas_costs_eip150_revision/
+
+- https://www.reddit.com/r/ethereum/
+  see also https://f2pool.io/mining/insights/eth/beginner-guide-eth-2-0/
+
