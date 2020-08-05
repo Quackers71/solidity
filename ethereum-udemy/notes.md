@@ -69,3 +69,46 @@ If you are running an older version, you can easily update it by grabbing an upd
 
 - Custom Node Project - from Scratch as 1st assignment
 
+31. Boilerplate Requirements
+
+Rob@Q64-PC1 MINGW64 ~/Desktop/repos/solidity/ethereum-udemy/inbox (develop)
+$ node -v
+v12.16.2
+Rob@Q64-PC1 MINGW64 ~/Desktop/repos/solidity/ethereum-udemy/inbox (develop)
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (inbox)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Rob\Desktop\repos\solidity\ethereum-udemy\inbox\package.json:
+
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
