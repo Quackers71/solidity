@@ -20,7 +20,9 @@ Learning Solidity from various resources:
 - https://eth-converter.com/
 - https://andersbrownworth.com/blockchain/
 - Ethereum uses keccak256
-
+- https://andersbrownworth.com/blockchain/public-private-keys/keys
+- https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
+- https://andersbrownworth.com/blockchain/public-private-keys/signatures # Signing and Verifying a Transaction or a Message...
 
 #### Testnet environment - using the remix IDE
 - http://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.4.26+commit.4563c3fc.js
