@@ -1,0 +1,36 @@
+robq@robq-VirtualBox:~/repos/solidity/ethereum-udemy/inbox$ node compile.js 
+assert.js:339
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: Invalid callback object specified.
+    at runWithCallbacks (/home/robq/repos/solidity/ethereum-udemy/inbox/node_modules/solc/wrapper.js:97:7)
+    at compileStandard (/home/robq/repos/solidity/ethereum-udemy/inbox/node_modules/solc/wrapper.js:207:14)
+    at Object.compileStandardWrapper [as compile] (/home/robq/repos/solidity/ethereum-udemy/inbox/node_modules/solc/wrapper.js:214:14)
+    at Object.<anonymous> (/home/robq/repos/solidity/ethereum-udemy/inbox/compile.js:8:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+
+# Latest
+
+robq@robq-VirtualBox:~/repos/solidity/ethereum-udemy/inbox$ node compile.js 
+/home/robq/repos/solidity/ethereum-udemy/inbox/compile.js:26
+exports.abi = output.contracts['Inbox.sol']['Inbox'].abi;
+                              ^
+
+TypeError: Cannot read property 'Inbox.sol' of undefined
+    at Object.<anonymous> (/home/robq/repos/solidity/ethereum-udemy/inbox/compile.js:26:31)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+
+    
