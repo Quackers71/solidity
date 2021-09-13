@@ -24,6 +24,13 @@ Learning Solidity from various resources:
 - https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
 - https://andersbrownworth.com/blockchain/public-private-keys/signatures # Signing and Verifying a Transaction or a Message...
 
+- Course Resources
+  - https://github.com/smartcontractkit/full-blockchain-solidity-course-py/discussions
+  - https://ethereum.stackexchange.com/
+  - https://stackoverflow.com/
+  - https://remix.ethereum.org/
+  - https://docs.chain.link/docs/link-token-contracts/
+
 #### Testnet environment - using the remix IDE
 - http://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.4.26+commit.4563c3fc.js
 
